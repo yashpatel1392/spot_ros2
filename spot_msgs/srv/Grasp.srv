@@ -1,0 +1,5 @@
+string frame
+float32[] object_rt_frame
+---
+bool success
+string message
