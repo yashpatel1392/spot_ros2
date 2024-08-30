@@ -21,6 +21,9 @@
   </p>
 </p>
 
+## Fork Information
+This fork repository now includes several new services: one for moving the arm joint by specifying joint values, one for retrieving the arm joint values, one for capturing images, and one for grasping an object from a given frame. These services are implemented under `spot_driver` and defined under `spot_wrapper`.
+
 # Overview
 This is a ROS 2 package for Boston Dynamics' Spot. The package contains all necessary topics, services and actions to teleoperate or navigate Spot.
 This package is derived from this [ROS 1 package](https://github.com/heuristicus/spot_ros). This package currently corresponds to version 4.0.2 of the [spot-sdk](https://github.com/boston-dynamics/spot-sdk/releases/tag/v4.0.2).
